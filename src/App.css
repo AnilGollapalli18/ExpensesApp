@@ -1,13 +1,22 @@
-
+.expense-c{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(125deg,yellow,orange);
+  font-family:Serif;
+}
 .expense-container{
     text-align: center;
     padding: 20px;
+    color: #fff;
 }
   
 .expense-tracker {
     max-width: 600px;
     margin: 0 auto;
-    background: whitesmoke;
+    background-image:linear-gradient(125deg,blue,black);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
